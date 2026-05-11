@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Math Test</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <header class="header">
+      <div class="logo">MathTest</div>
+
+      <nav class="navbar">
+        <a href="index.html">Главная</a>
+        <a href="about.html">О проекте</a>
+      </nav>
+    </header>
+
+    <!-- TEST -->
+
+    <section class="test-container">
+      <div class="test-box">
+        <!-- TOP -->
+
+        <div class="test-top">
+          <span id="question-number"> Вопрос 1 </span>
+
+          <span id="timer"> 00:30 </span>
+        </div>
+
+        <!-- PROGRESS -->
+
+        <div class="progress-bar">
+          <div class="progress"></div>
+        </div>
+
+        <!-- QUESTION -->
+
+        <h2 id="question">Вопрос появится здесь</h2>
+
+        <!-- ANSWERS -->
+
+        <div class="answers">
+          <button class="answer-btn">Ответ 1</button>
+
+          <button class="answer-btn">Ответ 2</button>
+
+          <button class="answer-btn">Ответ 3</button>
+
+          <button class="answer-btn">Ответ 4</button>
+        </div>
+
+        <!-- NEXT BUTTON -->
+
+        <button id="nextBtn" class="btn">Следующий вопрос</button>
+      </div>
+    </section>
+
+    <script src="js/algebra.js"></script>
+
+    <script src="js/geometry.js"></script>
+
+    <script src="js/arithmetic.js"></script>
+
+    <script src="js/logic.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

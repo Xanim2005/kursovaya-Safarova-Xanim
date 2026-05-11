@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Результат теста</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+
+    <header class="header">
+      <div class="logo">MathTest</div>
+
+      <nav class="navbar">
+        <a href="index.html"> Главная </a>
+
+        <a href="about.html"> О проекте </a>
+      </nav>
+    </header>
+
+    <!-- RESULT -->
+
+    <section class="result-container">
+      <div class="result-box">
+        <h1>Тест завершен</h1>
+
+        <!-- CIRCLE -->
+
+        <div class="circle-wrap">
+          <svg class="circle-svg" width="180" height="180">
+            <circle class="circle-bg" cx="90" cy="90" r="70"></circle>
+
+            <circle class="circle-progress" cx="90" cy="90" r="70"></circle>
+          </svg>
+
+          <div class="circle-text" id="percent">0%</div>
+        </div>
+
+        <!-- SCORE -->
+
+        <div class="result-score" id="score">0 / 0</div>
+
+        <!-- RESULT TEXT -->
+
+        <p class="result-text" id="resultText">Результат теста</p>
+
+        <!-- BUTTON -->
+
+        <a href="index.html" class="btn"> На главную </a>
+      </div>
+    </section>
+
+    <script src="js/result.js"></script>
+  </body>
+</html>
